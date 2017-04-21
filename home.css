@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 400px) {
+    /* For desktop: */
+    .col-1 {
+    	width: 100%;}
+    .col-2 {
+    	width: 70%;
+    		margin:auto;
+    	}
+    .col-3 {width: 100%;}
+
+}
+body {
+	background-image:url("look.jpg");
+	background-attachment:fixed;
+	background-position:middle center;
+	background-size: 1500px, 600px;
+
+}
+
+h1 {
+	color: black;
+    font-family: "filson-soft", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	transform:rotate(-90deg);
+	font-size:30px;
+	float:left;
+	margin-top:140px;
+	margin-left:-50px;
+	position:fixed;
+	}
+
+.line {
+	color: black;
+    font-family: "filson-soft", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	transform:rotate(-90deg);
+	font-size:30px;
+	float:left;
+	margin-top:340px;
+	margin-left:-55px;
+	position:fixed;
+	transition: 1.5s ease;
+	}
+
+.line:hover {
+    margin-top:130px;
+}
+
+
+.contact {
+	border:none;
+	text-decoration:none;
+	transform: translateY(100%) translateX(-100%) rotate(90deg);
+    position: fixed;
+    color:black;
+    left: 100%;
+    padding: 25px 5px;
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+	color:black;}
+
+.resume {
+	color:black;
+	text-decoration:none;
+	transform: translateY(300%) translateX(-80%) rotate(90deg);
+    position: fixed;
+    top: 0px;
+    left: 100%;
+    padding: 25px 35px;
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+	color:black;}
+
+.social {
+	text-decoration:none;
+	transform: translateY(500%) translateX(-80%) rotate(90deg);
+    position: fixed;
+    top: 0px;
+    left: 100%;
+    padding: 23px 35px;
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+	color:black;}
+
+a {list-style-type:none;
+text-decoration:none;
+color:black;}
+
+.nav {
+	list-style-type:none;
+    color: black;
+    font-family: "filson-soft", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	text-decoration:none;
+}
+
+
+.contact:hover, .resume:hover, .social:hover {
+  background: transparent;
+  transition: 1.5s;
+  text-decoration:line-through;
+  color:black;
+  
+}
+
+
+img {
+	padding:20px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin:auto;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   -ms-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+
+
+.connan {
+	padding-top:70px;
+}
+ 
+.connan:hover {
+  -ms-transform: translate(25px, -25px); 
+   -webkit-transform: translate(25px, -25px); 
+  transform: translate(25px, -25px);
+}
+    
+.magazine:hover {
+  -ms-transform: translate(-25px, 25px); 
+   -webkit-transform: translate(-25px, 25px); 
+  transform: translate(-25px, 25px);
+}
+
+.pv:hover {
+  -ms-transform: translate(25px, 25px); 
+   -webkit-transform: translate(25px, 25px); 
+  transform: translate(25px, 25px);
+}
+
+
